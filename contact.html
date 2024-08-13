@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>The Witch's Cottage</title>
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<style>
+    .table{
+        margin-left: 35%;
+        width: 500px;
+        border: 3px black solid;
+        height: 210px;
+        background-color: #a990e6;
+    }
+    .table th, td{
+        width: 300px;
+        border: 3px black solid;
+    }
+
+    .newsletter{
+     border: 3px black solid;
+    background-color: #c4f0e8;
+    color: #a990e6;
+    width: 50%;
+    margin-left: 27%;
+    padding: 3%;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="webPage">
+   <nav class="navBar">
+    <div class="navDiv">
+        
+        <div class="logo"> <a href="./index.html"><img src="./assets/SBA Kitchen Logo_new.png" alt="Logo" height="120px" style="margin-top: 25px;"></a> </div>        <ul>
+            <li><a href="./index.html">Home</a></li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Menu</a>
+            <div class="dropdown-content">
+                <a href=".#">Breakfast</a>
+                <a href="#">Lunch</a>
+                <a href="./AfternoonTea.html">Afternoon Tea</a>
+                <a href="#">Drinks</a>
+            </div>
+        </li>
+        
+        <li><a href="./reservations.html">Reservations</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Nutrion</a></li>
+        
+        </ul>
+    </div>
+    
+   </nav>
+
+    
+
+
+    <form onsubmit="return validateThis()">
+        <div class="newsletter">
+          <p>  Don't want to miss out on any special events or seasonal flavors?</p>
+       <p> Sign up now and recieve our newsletter! We promise not to send you any spam or hexes.</p>
+            
+        <div class="formName">
+        <label for="fullName ">Name:</label>
+        <input type name="fullName" id="fullName" placeholder="Jane Doe"required >
+    
+        <div class="formEmail">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="jdoe123@domain.com" required> 
+      </div>
+<br>
+      <div class="submit">
+<button type="submit">Submit</button>
+</div>
+    </div>
+        </div>
+      </form>
+
+<br>
+<br>
+<br>
+
+
+
+
+   <div class="table">
+    <table style="color: #c4f0e8;;">
+    <caption>Hours of Operation</caption>
+    <tr>
+        <th>Monday</th>
+        <td> Closed</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+
+    <tr>
+        <th>Thursday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+
+    <tr>
+        <th>Friday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+
+    <tr>
+        <th>Saturday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+
+    <tr>
+        <th>Sunday</th>
+        <td> 11:00AM-10:00PM</td>
+    </tr>
+    
+</table>
+
+
+</div>
+<br>
+<br>
+<br>
+
+
+
+<div class="logo"> <a href="./index.html"><img src="./assets/SBA Kitchen Logo_new.png" alt="Logo" height="200px" style="margin-left: 45%;"></a> </div>
+
+
+<div class="infoContainer">
+<h3>Location</h3>
+<p>Henderson, Nv</p>
+<p>12345 N Fake Restaurant Ave</p>
+<p>Suite C</p>
+<p>Henderson,NV 89001</p>
+<p>(702) 123-5678</p>
+<p>thewitch'kitchen@gmail.com</p>
+<p>Monday:</p>
+Closed
+<p>Tuesday-Sunday</p>
+<p>11:00 am-10:00pm</p>
+</div>
+
+
+    </div>
+</body>
+</html>
